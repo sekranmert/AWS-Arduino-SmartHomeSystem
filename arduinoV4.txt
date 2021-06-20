@@ -2,8 +2,8 @@
 
 //Mac adress for ethernet shield this one is default for Wiznet W5100
 byte mac[] = { 0xDE, 0xAD, 0xBE, 0xEF, 0xFE, 0xED };
-int port = 63342; 
-IPAddress server(3, 134, 76, 64);  // Ip for server,
+int port = 9999; 
+IPAddress server(192, 168, 0, 178;  // Ip for server,
 
 // ip is static IP address for shield, mydns is the default IP of dns  
 IPAddress ip(192, 168, 0, 177);
@@ -56,7 +56,7 @@ void setup() {//this setup part is from webclient aplication example of ethernet
   }
   //client.println("a");
   //delay(1000);
-  //client.println("arduSekran");
+  //client.println("arduHome");
   //delay(1000);
   
 }
