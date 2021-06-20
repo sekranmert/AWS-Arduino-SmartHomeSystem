@@ -3,8 +3,8 @@ import threading
 import datetime
 
 #Server info
-host = '127.0.0.1'# 127.0.0.1 for local, 172.31.37.40 for AWS
-port = 9999# 9999 for local, 63342 for AWS
+host = '127.0.0.1'# 127.0.0.1 for local
+port = 9999# 9999 for local
 
 #connection
 server = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
